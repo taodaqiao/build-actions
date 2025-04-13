@@ -25,9 +25,10 @@ on:
       CONFIG_FILE:
         description: '请选择[seed文件夹内]的配置文件'
         required: true
-        default: '360-t7-108M'
+        default: 'mt7986-ax6000'
         type: choice
         options:
+          - 'mt7986-ax6000'
           - 'glinet-gl-xe3000'
           - 'huasifei-wh3000-emmc'
           - '360-t7-108M'
